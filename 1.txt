@@ -44,3 +44,19 @@ https://segmentfault.com/a/1190000021234353?utm_source=sf-related
 手把手教你使用 VuePress 搭建个人博客
 https://segmentfault.com/a/1190000017207205?utm_source=sf-related
 
+
+…or create a new repository on the command line
+echo "# blog" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/qxoffice2010/blog.git
+git push -u origin master
+                
+				
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/qxoffice2010/blog.git
+git branch -M master
+git push -u origin master
