@@ -10,14 +10,14 @@ npm run build .
 cd docs/.vuepress/dist
 
 # 如果是发布到自定义域名
-# echo 'www.yourwebsite.com' > CNAME
+echo 'blog.for-in-here.com' > CNAME
 
 git init
 git add -A
 git commit -m 'deploy'
 
 # 如果你想要部署到 https://USERNAME.github.io
-git push -f git@github.com:qxoffice2008/qxoffice2008.github.io.git master
+git push -f git@github.com:qxoffice2010/qxoffice2010.github.io.git master
 
 # 如果发布到 https://USERNAME.github.io/<REPO>  REPO=github上的项目
 # git push -f git@github.com:USERNAME/<REPO>.git master:gh-pages
